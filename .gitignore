@@ -1,14 +1,12 @@
-# phpstorm project files
+# Don't check auto-generated stuff into git
+coverage
+build
+prod
+node_modules
+stats.json
+
+# Cruft
+.DS_Store
+npm-debug.log
 .idea
-
-#vscode project files
-.vscode
-
-# windows thumbnail cache
-Thumbs.db
-
-*.log
-# dir
-/node_modules
-/dist
-/tsc
+.awcache
